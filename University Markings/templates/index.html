@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='script/script.js') }}">
+<!--    <script>-->
+<!--        alert("This page has been loaded")-->
+    </script>
+</head>
+
+<body>
+
+    <h1>
+        THE GLOBAL INSTITUTE OF SCIENCES
+    </h1>
+
+    <h2>
+        Welcome to the University Results Portal
+    </h2>
+
+<form action="/submit" method="post">
+    <label for="Computer Science">Computer Science:</label><br>
+    <input type="text" id="computer_science" name="computer_science" value="0"><br><br>
+    <label for="Business Communication">Business Communication:</label><br>
+    <input type="text" id="business_communication" name="business_communication" value="0"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<p>Please enter your scores and click on "Submit".</p>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </script>
+</head>
+
+<body>
+
+    <h2> WELCOME FRESHMAN </h2>
+
+    {% if res >= 50 %}<h3>Kudos! you have passed the Examination with an average score of {{ res }}. </h3>
+    {% else %} <h3>You have passed, {{ response }}</h3>
+    {% endif %}
+<br>
+
+<input type="button" value="Back" onclick="history.back()">
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+body{
+  background-image: url('/static/the_globe.jpg');
+  background-size: cover;
+  opacity=0.2;
+}
+
+h1 {
+  font-family: verdana;
+  font-size: 50px;
+  color: #ffaa80;
+  text-align: center;
+}
+
+h2 {
+  font-family: verdana;
+  font-size: 20px;
+  color: #ffaa80;
+  text-align: center;
+}
+
+h3 {
+  font-family: verdana;
+  font-size: 18px;
+  color: #ffaa80;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 11px;
+  color: #ffaa80;
+}
+
+k {
+  font-family: verdana;
+  font-size: 34px;
+  color: #ffaa80;
+}
+
+input[type=text] {
+  transition: width 0.4s ease-in-out;
+}
+
+input:focus [type=text] {
+  width: 11%;
+  padding: 6px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #ffccb3;
+  color: brown;
+}
+
+label {
+  font-family: verdana;
+  font-size: 11px;
+  color: #ffaa80;
+  cursor: default;
+}
+
